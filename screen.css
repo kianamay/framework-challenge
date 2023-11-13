@@ -32,15 +32,21 @@ line-height: 1.6; /* Adjust line height for better readability */
     color: #000; 
 }
 
+.form-floating {
+    margin:30px 0 30px 0;
+}
+
 .intro{
+    padding:20px;
     text-align:left;
-    max-width: 80%; 
+    max-width: 65%; 
     margin: 20px;
 
 }
 .container {
-max-width: 70%; 
-margin: 0 auto; 
+    padding: 10px;
+    max-width: 60%; 
+    margin: 40px; 
 }
   
 
@@ -49,7 +55,7 @@ p {
 }
   
 #customRange3::-webkit-slider-thumb {
-    background-color: #ff5733; /* Set your desired color */
-    border: 1px solid #ff5733; /* Set the border color */
+    background-color: #a01523; /* Set your desired color */
+    border: 1px solid #a01523; /* Set the border color */
   }
   
