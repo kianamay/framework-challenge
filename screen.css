@@ -1,36 +1,52 @@
+
 body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-  }
-  
+    color:#efefef;
+    margin: 10px;
+    padding: 3px;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+    color: #a01523;
+}
+.lead{
+    text-align: center;
+    color: #931f2b;
+}
+
+.jumbotron{
+    padding: 50px;
+    max-width: 100%;
+    background-color: #1c1c1c;
+}
 .body-dark {
 background-color: #121212; /* Dark background color */
-
+color:#ffffff;
 font-family: 'Georgia', serif; /* Modern serif font */
 margin: 20px; /* Add margins for spacing */
 line-height: 1.6; /* Adjust line height for better readability */
 }
-  
-.form-group{
-    color: #fff; 
+
+.form-floating label {
+    color: #000; 
 }
 
-.form-label{
-    color: #fff
-    
-}
-  .container {
+.intro{
+    text-align:left;
     max-width: 80%; 
-    margin: 0 auto; 
-  }
+    margin: 20px;
+
+}
+.container {
+max-width: 70%; 
+margin: 0 auto; 
+}
   
-  h1, h2, h3, h4, h5, h6 {
-    color: #f8f8f8; /* Light heading text color */
-  }
-  
-  p {
+
+p {
     margin-bottom: 15px; /* Add bottom margin for paragraphs */
-  }
+}
   
 #customRange3::-webkit-slider-thumb {
     background-color: #ff5733; /* Set your desired color */
