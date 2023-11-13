@@ -12,15 +12,16 @@ line-height: 1.6; /* Adjust line height for better readability */
 }
   
 .form-group{
-    color: #fff; /* Light text color */
+    color: #fff; 
 }
 
 .form-label{
     color: #fff
+    
 }
   .container {
-    max-width: 800px; /* Set a maximum width for content */
-    margin: 0 auto; /* Center the container */
+    max-width: 80%; 
+    margin: 0 auto; 
   }
   
   h1, h2, h3, h4, h5, h6 {
