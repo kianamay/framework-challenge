@@ -27,7 +27,9 @@ font-family: 'Georgia', serif; /* Modern serif font */
 margin: 20px; /* Add margins for spacing */
 line-height: 1.6; /* Adjust line height for better readability */
 }
-
+.col-12 .btn{
+    background-color: #931f2b;
+}
 .form-floating label {
     color: #000; 
 }
@@ -48,12 +50,12 @@ line-height: 1.6; /* Adjust line height for better readability */
     max-width: 60%; 
     margin: 40px; 
 }
-  
+
 
 p {
     margin-bottom: 15px; /* Add bottom margin for paragraphs */
 }
-  
+
 #customRange3::-webkit-slider-thumb {
     background-color: #a01523; /* Set your desired color */
     border: 1px solid #a01523; /* Set the border color */
